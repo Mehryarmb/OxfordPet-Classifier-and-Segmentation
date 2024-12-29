@@ -39,24 +39,16 @@ The project uses the **Oxford-IIIT Pet Dataset**, which includes:
 ## Results
 
 ### Custom CNN
-- **Train Loss**: 0.8897
+
 - **Train Accuracy**: 78.79%
-- **Validation Loss**: 1.0352
 - **Validation Accuracy**: 76.46%
 
 ### Pre-trained Model with Fine-Tuning (TResNet_large)
-- **Train Loss**: 0.0227
+
 - **Train Accuracy**: 99.49%
-- **Validation Loss**: 0.2125
 - **Validation Accuracy**: 93.81%
 
 ### UNet-like Segmentation
 - **Intersection over Union (IoU)**: 0.7097
 
 
-## Installation
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/USERNAME/OxfordPet-Classifier-and-Segmentation.git
-   cd OxfordPet-Classifier-and-Segmentation
